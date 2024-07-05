@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+p{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', seri;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+}
+.container{
+    margin-left: 100px;
+    margin-top: 130px;
+    width: 330px;
+    height: 380px;
+    border: 2px solid white;
+    padding-left: 40px;
+    padding-right: 70px;
+    background-color: #ECFDF5;
+    border-radius: 15px;
+}
+.blue{
+    color: #00a8e8;
+}
+.msg{
+    font-size: 16px;
+    font-weight: 100;
+}
+button{
+    height: 28px;
+    width: 148px;
+    background-color:#00a8e8;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #ECFDF5;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+input[type="number"], input[type="checkbox"] {
+    margin: 7px;
+}
+label {
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', seri ;
+}
+#pass-1{
+    margin-top: 10px;
+}

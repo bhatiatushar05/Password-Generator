@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel ="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <p>Generate a <br><span class="blue">Random Password</span><br><span class="msg">Never use an insecure Password</span></p>
+             <!-- Password length input -->
+             <label for="password-length">Password Length:</label>
+             <input type="number" id="password-length" min="1" max="128" value="10">
+             
+             <!-- Options to include characters -->
+             <div>
+                 <label for="include-alphabets">Include Alphabets</label>
+                 <input type="checkbox" id="include-alphabets" checked>
+                 <label for="include-symbols">Include Symbols</label>
+                 <input type="checkbox" id="include-symbols" checked>
+             </div>
+ 
+             <button onclick="genPass()">Generate Passwords</button>
+             <hr>
+             <button id="pass-1" onclick="copyToClipboard('pass-1')"></button>
+             <button id="pass-2" onclick="copyToClipboard('pass-2')"></button>
+         </div>
+        <script src="index.js"></script>
+    </body>
+</html>
